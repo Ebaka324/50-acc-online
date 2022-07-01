@@ -868,11 +868,11 @@ jano50.on("message", message => {
 
 jano.on("ready", () => {
   console.log(`Online In Servers`);
-  let statuses = [`JUST ALLAH`];
+  let statuses = [`EBO`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     jano.user.setActivity(STREAMING, {
-      type: "playing",
+      type: "streaming",
       url: "https://www.twitch.tv/faith"
     });
   }, 2000);
@@ -1531,7 +1531,7 @@ jano50.on("ready", () => {
 
 //////////////// tokn lera da bne
 
-jano.login("");
+jano.login("OTg0OTYxMDkxMTc4MjIxNTc4.GyuBk9.EnRCWmYBDQtKM8meDKTkiJXPZSMfwP5vtMlaek");
 jano2.login("");
 jano3.login("");
 jano4.login("");
